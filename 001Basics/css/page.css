@@ -13,20 +13,27 @@ page{
 }
 #c{
     background-color: lightgreen;
-    animation: c 10s infinite;
+    animation: c 6.667s infinite;
 }
 #x{
     background-color: red;
-    animation: x 10s infinite;
+    animation: x 6.667s infinite;
 }
 #q{
-    animation: q 10s infinite;
+    animation: q 6.667s infinite;
+    background-image: url("../images/vit.wang (1).jpg");
+    background-size: 100% 100%;
 }
 #d{
     background-color:black;
     color: white;
-    animation: d 10s infinite;
+    animation: d 6.667s infinite;
 }
+#z{
+     font-size: 36px;
+     display: block;
+     animation: z 6.667s infinite;
+ }
 @keyframes c {
     0%{opacity: 0}
     20%{opacity: 100}
@@ -50,6 +57,12 @@ page{
 @keyframes d {
     0%{opacity: 0}
     60%{opacity: 0}
+    80%{opacity: 100}
+    100%{opacity: 0}
+}
+@keyframes z {
+    0%{opacity: 0}
+    70%{opacity: 0}
     80%{opacity: 100}
     100%{opacity: 0}
 }
